@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Keep Notes Site</title>
+    <link rel="stylesheet" href="style.css"></link>
+
+    <!-- CDN LINK FOR FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- font awesome kit link
+    <script src="https://kit.fontawesome.com/238dd873b9.js" crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+    
+    <div class="heading">
+        <!--fas- origianl with bg,  far - without background, fa-3x to increase size  -->
+        <h1><i class="far fa-sticky-note"></i> Shikha Keep</h1>
+    </div>
+
+    <div class="div-button">
+        <Button class="button add" id="add">
+            <span id="circle">
+               <span> <i id="arrow" class="fas fa-chevron-right"></i></span>
+            </span>
+            <span id="text">
+                <p>ADD NOTE</p>
+            </span>  
+        </Button>
+    </div>  
+
+    <!-- <div id="container">
+        <button class="learn-more">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">Learn More</span>
+        </button>
+      </div>
+    -->
+    
+      <!-- YAHAN TERNARY OPERATOR KA USE KARRE HAIN, as At a time hum bs ek he kaam karna chahnge, ya to save ya to write -->
+        
+     <!-- koi jarurat nhi hai u=iski ab, vahan same cheez likh di hai humne -->
+         <!-- <div class="note">
+            <div class="operation">
+                <button class="edit" title="Save/Edit">
+                <i class="fas fa-edit"></i>
+                </button>
+                <button class="delete" >
+                    <i class="fas fa-trash-alt" title="Delete"></i>
+                </button>
+            </div>
+        
+            <div class="main"></div>
+            <textarea id="textarea"></textarea>
+
+        </div>   -->
+    
+
+        <!-- <div id="main" class="hidden" } "></div> 
+        id="main" class=" ${text ? "" : "hidden"} "
+            class=" ${text? "hidden" : ""} " -->
+        
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- ASYNCHROUS NOT USED THOUGH -->
